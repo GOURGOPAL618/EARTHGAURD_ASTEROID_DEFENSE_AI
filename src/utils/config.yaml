@@ -1,0 +1,78 @@
+# StellarMind - EarthGuard Asteroid Defense AI
+# Configuration File
+
+project:
+  name: "Asteroid Risk Prediction System"
+  version: "1.0"
+  authors: ["Gouragopal Mohapatra", "Arijit Kumar Mohanty"]
+  year: 2026
+
+data:
+  raw_path: "data/raw/nasa_asteroid.csv"
+  processed_path: "data/processed/"
+  test_size: 0.2
+  random_state: 42
+  target_column: "is_potentially_hazardous_asteroid"
+
+preprocessing:
+  scaling_method: "robust"        # robust, standard, or minmax
+  imputation_strategy: "median"   # median, mean, or zero
+  remove_outliers: true
+  outlier_threshold: 1.5
+  correlation_threshold: 0.95
+  variance_threshold: 0.01
+
+models:
+  random_forest:
+    enabled: true
+    n_estimators: 100
+    max_depth: 10
+    min_samples_split: 2
+    min_samples_leaf: 1
+    class_weight: "balanced"
+    n_jobs: -1
+  
+  decision_tree:
+    enabled: true
+    max_depth: 10
+    min_samples_split: 2
+    min_samples_leaf: 1
+    criterion: "gini"
+    class_weight: "balanced"
+  
+  logistic_regression:
+    enabled: true
+    max_iter: 1000
+    C: 1.0
+    penalty: "l2"
+    solver: "lbfgs"
+    class_weight: "balanced"
+
+training:
+  cv_folds: 5
+  scoring_metric: "f1"
+  hyperparameter_tuning: true
+  tuning_cv_folds: 5
+  random_state: 42
+
+evaluation:
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1_score"
+    - "roc_auc"
+    - "mcc"
+  save_predictions: true
+  save_plots: false        # Set to false to not save images
+
+paths:
+  models_dir: "models/"
+  reports_dir: "reports/"
+  logs_dir: "logs/"
+  notebooks_dir: "notebooks/"
+
+logging:
+  level: "INFO"            # DEBUG, INFO, WARNING, ERROR
+  save_logs: true
+  log_format: "%(asctime)s | %(levelname)s | %(message)s"
