@@ -118,7 +118,7 @@ Co-Developer & Data Scientist -	Arijit Kumar Mohanty
 Organization	StellarMind
 
 # 📅 Version History
-Version	Date	Changes
+Version	Date	Changes  
 v1.0	- April 2026	- Initial release with basic models  
 v2.0	- April 2026	- Added Streamlit web interface  
 v2.1	- April 2026	- Enhanced UI with space theme  
