@@ -113,8 +113,8 @@ Logistic Regression	89.8%	88.5%	87.2%	87.8%
 
 # 👨‍🚀 Team
 Role	Name
-Lead Architect & AI Engineer	Gouragopal Mohapatra
-Co-Developer & Data Scientist	Arijit Kumar Mohanty
+Lead Architect & AI Engineer -	Gouragopal Mohapatra  
+Co-Developer & Data Scientist -	Arijit Kumar Mohanty  
 Organization	StellarMind
 
 # 📅 Version History
@@ -142,4 +142,5 @@ ESA NEO Coordination Centre
 # ⚠️ Disclaimer
 This system is for research and monitoring purposes only. Always verify critical predictions with official space agencies.
 ```
-<div align="center"> Made with ❤️ by **StellarMind** | Protecting Earth since 2026 </div> ```
+<div align="center"> Made with ❤️ by **StellarMind** | Protecting Earth since 2026 </div>
+```
