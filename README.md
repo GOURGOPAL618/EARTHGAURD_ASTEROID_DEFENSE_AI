@@ -71,7 +71,7 @@ text
 
 ### Installation
 
-```bash
+bash
 # Clone the repository
 git clone https://github.com/yourusername/EarthGuard.git
 cd EarthGuard
@@ -81,8 +81,9 @@ pip install -r requirements.txt
 
 # Run the web app
 streamlit run app.py
-🎯 How to Use
-1. Single Asteroid Prediction
+
+## 🎯 How to Use
+# 1. Single Asteroid Prediction
 Select "RISK SCANNER" from sidebar
 
 Enter orbital parameters (Eccentricity, Semi-major Axis, etc.)
@@ -91,50 +92,54 @@ Click "INITIATE RISK SCAN"
 
 Get instant risk assessment with probability score
 
-2. Batch Prediction
+# 2. Batch Prediction
 Select "MASS SCAN" from sidebar
 
 Upload CSV file with asteroid data
 
 Download results with risk scores
 
-3. Data Visualization
+# 3. Data Visualization
 Select "ASTEROID MAP" from sidebar
 
 Explore interactive charts and distributions
 
-📊 Model Performance
+# 📊 Model Performance
 Model	Accuracy	Precision	Recall	F1-Score
 Random Forest	94.2%	93.8%	92.5%	93.1%
 Decision Tree	91.5%	90.2%	89.8%	90.0%
 Logistic Regression	89.8%	88.5%	87.2%	87.8%
-👨‍🚀 Team
+
+
+# 👨‍🚀 Team
 Role	Name
 Lead Architect & AI Engineer	Gouragopal Mohapatra
 Co-Developer & Data Scientist	Arijit Kumar Mohanty
 Organization	StellarMind
-📅 Version History
+
+# 📅 Version History
 Version	Date	Changes
 v1.0	April 2026	Initial release with basic models
 v2.0	April 2026	Added Streamlit web interface
 v2.1	April 2026	Enhanced UI with space theme
 v2.2	April 2026	Added batch prediction
 v2.3	April 2026	Fixed 73-feature model compatibility
-📞 Contact
+
+# 📞 Contact
 For inquiries, collaborations, or support:
 
 Email: contact@stellarmind.space
 
 GitHub: github.com/stellarmind
 
-🙏 Acknowledgments
+# 🙏 Acknowledgments
 NASA NEO Database for asteroid data
 
 JPL Small-Body Database
 
 ESA NEO Coordination Centre
 
-⚠️ Disclaimer
+# ⚠️ Disclaimer
 This system is for research and monitoring purposes only. Always verify critical predictions with official space agencies.
-
+```
 <div align="center"> Made with ❤️ by **StellarMind** | Protecting Earth since 2026 </div> ```
