@@ -141,6 +141,7 @@ ESA NEO Coordination Centre
 
 # ⚠️ Disclaimer
 This system is for research and monitoring purposes only. Always verify critical predictions with official space agencies.
-```
-<div align="center"> Made with ❤️ by **StellarMind** | Protecting Earth since 2026 </div>
-```
+
+<div align="center">
+  ⚡ Made with ❤️ by <b>StellarMind</b> · 🌍 Protecting Earth since 2026
+</div>
