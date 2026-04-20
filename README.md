@@ -119,11 +119,11 @@ Organization	StellarMind
 
 # 📅 Version History
 Version	Date	Changes
-v1.0	April 2026	Initial release with basic models
-v2.0	April 2026	Added Streamlit web interface
-v2.1	April 2026	Enhanced UI with space theme
-v2.2	April 2026	Added batch prediction
-v2.3	April 2026	Fixed 73-feature model compatibility
+v1.0	- April 2026	- Initial release with basic models  
+v2.0	- April 2026	- Added Streamlit web interface  
+v2.1	- April 2026	- Enhanced UI with space theme  
+v2.2	- April 2026	- Added batch prediction  
+v2.3	- April 2026	- Fixed 73-feature model compatibility
 
 # 📞 Contact
 For inquiries, collaborations, or support:
