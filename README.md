@@ -105,10 +105,10 @@ Select "ASTEROID MAP" from sidebar
 Explore interactive charts and distributions
 
 # 📊 Model Performance
-Model	Accuracy	Precision	Recall	F1-Score
-Random Forest	94.2%	93.8%	92.5%	93.1%
-Decision Tree	91.5%	90.2%	89.8%	90.0%
-Logistic Regression	89.8%	88.5%	87.2%	87.8%
+Model	             Accuracy	Precision	Recall	  F1-Score  
+Random Forest	      94.2%	   93.8%	   92.5%	   93.1%   
+Decision Tree	      91.5%	   90.2%	   89.8%	   90.0%  
+Logistic Regression	89.8%	   88.5%	   87.2%	   87.8%  
 
 
 # 👨‍🚀 Team
